@@ -18,7 +18,12 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+<!-- link -->
+<link rel="stylesheet" href="./style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+<!-- /partial -->
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -165,30 +170,15 @@
             <!-- <p><em>Experion, New York, NY </em></p> -->
             <p>
             <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.
+              <li><strong>HTML/CSS Profiency</strong> :- proficiency in HTML and CSS to structure and style web pages according to design specification</li>
+              <li><strong>Responsive Design</strong> :- Learn to create web designs that adapt to different screen sizes and devices using techniques such as media queries and flexible layouts.
               </li>
-              <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              <li><strong>Version Control Systems</strong> :- Learn to use version control systems like Git to manage code changes, collaborate with team members, and maintain codebase integrity.</li>
+              <li><strong>Continuous Learning</strong> :- Stay updated on emerging technologies, best practices, and industry trends through online resources, tutorials, forums, and Professional development opportunities</li>
             </ul>
             </p>
           </div>
-          <div class="resume-item">
-            <h4>Backend Development</h4>
-            <!-- <h5>2017 - 2018</h5> -->
-            <!-- <p><em>Stepping Stone Advertising, New York, NY</em></p> -->
-            <p>
-            <ul>
-              <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                advertisements).</li>
-              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-              <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-              <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-            </ul>
-            </p>
-          </div>
+         
         </div>
       </div>
 
@@ -197,169 +187,50 @@
   <!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
+    <div class="filters filter-button-group" id="work">
+      <ul>
+          <li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
+          <li><a href="javascript:void(0);" data-filter="HTML CSS & Bootstrap">HTML CSS & Bootstrap</a></li>
+          <li><a href="javascript:void(0);" data-filter="React Designing">React Designing</a></li>
+          <li><a href="javascript:void(0);" data-filter="Wordpress">Wordpress</a></li>
+      </ul>
+  </div>
+      <div id="container" class="isotope">
+      
+          <div class="grid-item me-3" data-filter="HTML CSS & Bootstrap">
+          <a class="popupimg" href="./Ola.html">
+          <img src="./assets/img/Ola.png">
+          </a>
+          <div class="overlay">HTML CSS & Bootstrap</div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
+          <div class="grid-item" data-filter="React Designing">
+          <a class="popupimg" href="./Outlook.html">
+          <img src="./assets/img/Outlook.png">
+          </a>
+          <div class="overlay">React Designing</div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Loreda Cuno Nere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
+          
+          <div class="grid-item" data-filter="Wordpress">
+          <a class="popupimg" href="./Wordpress.html">
+          <img src="./assets//img/lugz.png">
+          </a>
+          <div class="overlay">Wordpress</div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+          
+          <div class="grid-item" data-filter="HTML CSS & Bootstrap">
+          <a class="popupimg" href="./Hotel.html">
+          <img src="./assets/img/Hotel.png">
+          </a>
+          <div class="overlay">HTML CSS & Bootstrap</div>
+          </div> 
       </div>
-    </section><!-- End Portfolio Section -->
+      
+      <div class="isotope-pager" style="padding-top: 15px; text-align:center;">
+          </div>
+      
+    <!-- End Portfolio Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
@@ -375,7 +246,7 @@
 
                     <div class="col-md-6 d-flex align-items-stretch ">
                       <div class="info-box">
-                        <i class="bi bi-geo-alt"></i>
+                       <a href="https://www.google.com/maps/place/Block+B,+B22,+Jogabai+Extension,+Okhla,+New+Delhi,+Delhi+110025/@28.571187,77.2833016,21z/data=!4m6!3m5!1s0x390ce3888bfd7471:0xce0953f390838f66!8m2!3d28.571194!4d77.283291!16s%2Fg%2F11vwpvmxl8?entry=ttu"> <i class="bi bi-geo-alt"></i></a>
                         <h3>My Address</h3>
                         <p>Street No. 7, Jogabai Extension, Okhla, New Delhi, Delhi 110025</p>
                       </div>
@@ -383,7 +254,9 @@
             
                     <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
                       <div class="info-box info-box-group">
-                        <div class="share-btn"><i class="bi bi-share"></i></div>
+                        <div class="share-btn">
+                          <a href=""><i class="bi bi-share"></i></a>
+                        </div>
                         <h3>Social Profiles</h3>
                         <div class="social-links">
                           <a href="https://twitter.com/Justin_Devloper" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -399,14 +272,14 @@
             
                     <div class="col-md-6 mt-4 d-flex align-items-stretch">
                       <div class="info-box">
-                        <i class="bi bi-envelope"></i>
+                        <a href="justinarbaz442@gmail.com"><i class="bi bi-envelope"></i></a>
                         <h3>Email Me</h3>
                         <p>justinarbaz442@gmail.com</p>
                       </div>
                     </div>
                     <div class="col-md-6 mt-4 d-flex align-items-stretch">
                       <div class="info-box">
-                        <i class="bi bi-telephone"></i>
+                        <a href=""><i class="bi bi-telephone"></i>  </a>
                         <h3>Call Me</h3>
                         <p>+91 9801753451</p>
                       </div>
@@ -470,12 +343,6 @@
           <div class="copyright-box">
             <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
             <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
               Designed by <a href="https://bootstrapmade.com/">Md Arbaz</a>
             </div>
           </div>
@@ -484,20 +351,22 @@
     </div>
   </footer><!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script><script  src="./script.js"></script>
 
+
+
+<script src="./assets/js/Gallery.js"></script>
 </body>
 
 </html>
